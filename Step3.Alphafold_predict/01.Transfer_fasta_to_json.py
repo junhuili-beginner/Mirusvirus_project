@@ -3,9 +3,9 @@ import json
 import os
 
 # Input file path
-input_fasta = "mirus_mcp_updated.fasta"
-score_file = "score_70to200_dedup.txt"
-output_dir = "score_70to200_dedup"
+input_fasta = "mirus_mcp.fasta"
+score_file = "sequences.txt"
+output_dir = "sequences.json"
 
 # Output file path
 os.makedirs(output_dir, exist_ok=True)
