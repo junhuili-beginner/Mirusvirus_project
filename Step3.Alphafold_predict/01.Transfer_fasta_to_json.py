@@ -43,7 +43,7 @@ for seq_id in sequence_ids:
             }
         ]
 
-        # 输出为JSON文件，文件名为序列ID
+        # The output is a JSON file named sequence ID
         output_path = os.path.join(output_dir, f"{seq_id}.json")
         with open(output_path, "w") as f:
             json.dump(data, f, indent=2)
