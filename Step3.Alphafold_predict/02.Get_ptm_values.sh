@@ -1,7 +1,7 @@
 #!/bin/bash
 
-# 设置你想要查找的目录路径
-search_dir="fold_25_0620"
+# Set the directory path you want to search
+search_dir="your_alphafold_predict.files"
 
 output="ptm_values.txt"
 echo -e "name\tptm" > "$output"
@@ -10,7 +10,7 @@ find "$search_dir" -type f -name "*confidences_0.json" -print0 | while IFS= read
     fname=$(basename "$file")
     name=$(echo "$fname" | sed -n 's/^fold_\(.*\)_summary_confidences_0\.json$/\1/p')
     if [[ -z "$name" ]]; then
-        echo "Warning: 无法从文件名提取序列名: $fname" >&2
+        echo "Warning: Unable to extract sequence name from file name: $fname" >&2
         continue
     fi
 
