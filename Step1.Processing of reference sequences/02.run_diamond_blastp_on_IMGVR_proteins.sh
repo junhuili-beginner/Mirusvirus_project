@@ -1,0 +1,1 @@
+diamond blastp --ultra-sensitive --max-target-seqs 1 --evalue 0.00001 --threads 10 -d mirusvirus_mcp -q /storage2/databases/IMGVR-NCBI_phages/IMGVR_V4/IMGVR_all_proteins.faa -o IMGVR_all_proteins_Match2_mirusvirus_MCP_db.tsv

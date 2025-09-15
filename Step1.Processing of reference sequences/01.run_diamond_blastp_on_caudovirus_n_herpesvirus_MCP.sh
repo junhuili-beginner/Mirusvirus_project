@@ -1,0 +1,1 @@
+diamond blastp --ultra-sensitive -d mirusvirus_mcp -q caudovirus_n_herpesvirus_MCP.faa -o caudovirus_n_herpesvirus_MCP_Match2_mirusvirus_MCP_db.tsv 

@@ -1,0 +1,1 @@
+diamond blastp --ultra-sensitive --max-target-seqs 1 --evalue 0.01 --threads 10 -d mirusvirus_mcp_2nd -q /storage2/scratch/zzhou388/Giant_virus_project/IAS_mangrove_metagenome_assembly_and_cov_dir/201704_MF1.contigs_1000bp.faa -o 201704_MF1_Match2_mirusvirus_MCP_db.2ndRound.tsv
